@@ -1,0 +1,88 @@
+import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+header{
+    display:inline-flex;
+    flex-direction:column 1 1;
+   
+}
+
+.header-cabe{
+/*background-color: rgba(241, 163, 152, 0.584);*/
+
+background-image:linear-gradient(to right, rgb(241, 163, 152) , rgba(241, 162, 152, 0.314));
+
+font-family: font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.logoti{
+    display: flex;
+    color:rgb(72, 74, 74);
+    font-family: 'Quicksand', sans-serif;
+    text-shadow: 0 0 3px #f54444, 0 0 5px #fb8097;
+    font-weight: 700px;
+    font-size: 30px;
+    
+    }
+    h5{
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+ 
+  
+.navbar {
+    /*display: inline-flex;*/
+    width: 100%;
+    justify-content: space-around;
+    font-family:'Yanone Kaffeesatz', sans-serif; 
+    text-align: end; 
+    text-shadow: 0 0 3px #ed7676, 0 0 5px #faf8f8;
+}
+.nav-list {
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+    vertical-align: bottom;
+       }
+.list-item {
+    display: inline-block;
+    padding: 35px 10px; 
+    padding-bottom: 5px;
+    border-radius: 5px;
+    transition: .5s;
+    /*border-left: 4px solid #33b6e559;*/
+}
+.navbar a {
+    color: rgb(56, 55, 55);
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    /*color: rgb(147, 147, 40);*/
+    /*text-shadow: #f4efefae;*/
+    color: rgba(227, 27, 74, 0.805);
+    border-left: 5px solid #2407b159;
+    transition: .5s;
+}
+.top-bar ul {
+    display: inline-block;
+    list-style: none;
+ 
+}
+.top-bar li {
+    display: inline-block;
+    margin: 0px 15px;
+       
+}
+@media screen and (max-width: 768px) {
+    .menu{
+            display: none;
+    }
+    
+  }
+  @media screen and (max-width: 480px) {
+    .menu{
+        display: none;
+
+    }
+        
+  }
