@@ -78,25 +78,19 @@ h4{
 .Cont-Card{
  display: flex;
   flex-direction: row;
-  margin: auto;
-  flex-wrap: wrap;
-*/}
-container-cards{
- /* justify-content: center;
+ flex-wrap: wrap;
+ justify-content: center;
   align-items: center;
   text-align: center;
-  flex-wrap: wrap;
-  gap: 100px 50px;
-  padding: 100px 50px;
- */ 
 }
+
 .container-Card{
-  display:flex;
+ display:flex;
 justify-content: center;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  gap: 100px 50px;
+ /* gap: 100px 50px;
   padding: 100px 50px;
  /* display:flex;
   justify-content: center;
@@ -106,13 +100,13 @@ justify-content: center;
 .container{
   display: flex;
   display: inline;
-  justify-content: center;
+/*  justify-content: center;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
   gap: 100px 50px;
   padding: 100px 50px;
-  
+  */
   }
 
 .container-Card .card{
@@ -120,10 +114,10 @@ justify-content: center;
   position: relative;
   justify-content: center;
   align-items: flex-start;
-  width: 300px;
-  height: 260px;
+  width: 280px;
+  height: 240px;
   background: #FFF;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 35px 80px #c6c4c4;
   transition: 0.5s;
 }
@@ -132,8 +126,8 @@ justify-content: center;
 .container-Card .card .imgBx{
   position:absolute;
   top:0px;
-  width: 280px;
-  height: 240px;
+  width: 260px;
+  height: 220px;
   /*background: #e15e5e;*/
   border-radius: 22px;
   overflow: hidden;
