@@ -75,17 +75,24 @@ h4{
   align-content: center;
   background-image: url(/img/darcafe.png);
 }
+.Cont-Card{
+ display: flex;
+  flex-direction: row;
+  margin: auto;
+  flex-wrap: wrap;
+*/}
 container-cards{
-  justify-content: center;
+ /* justify-content: center;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
   gap: 100px 50px;
   padding: 100px 50px;
-  
+ */ 
 }
 .container-Card{
-  justify-content: center;
+  display:flex;
+justify-content: center;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
