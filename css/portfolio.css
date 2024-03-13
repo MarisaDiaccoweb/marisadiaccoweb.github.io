@@ -1,11 +1,17 @@
-<<<<<<< HEAD
+
 {
    /*font-family: 'Quicksand', sans-serif; */
    font-size: .7rem;
-   width:100vh;
+   width:90%;
    font-family: 'Signika Negative', sans-serif;
    /*font-family: 'Quicksand', sans-serif;*/
    }
+  
+body {
+ /*display: block;*/
+   text-decoration: none;
+   background-color: rgba(250, 237, 249, 0.707); 
+}
    .container-General{
     display: flex;
     width: 100%;
@@ -59,27 +65,37 @@ h1{
 .artdiseno{
    display: flex;
    max-height: 100px;
+   padding: 20px;
 }
 .artdiseno img{
-   height:100px;
+   height:80px;
    margin-left: 10px;
    border-radius: 10px;
   }
 p {font-family: 'Quicksand', sans-serif;
      color: rgb(242, 247, 245);
      text-align:justify}
-     
- 
- 
-    /* .fotos{
+
+     .container{
+      display: flex;
+      position: relative;
+      margin: 10px auto;
+  max-width: $max-img-width;
+  
+  padding-top: $max-img-height/$max-img-width * 100%;
+
+     }
+  
+ .fotos{
        display:flex;
        flex-direction: row;
        width: 100%;
-      }*/
+      } 
   .diseno{
     background-color: rgb(35, 35, 34);
     margin:0;  
   }   
+  
 .diseno p{
 /* display:flex;*/
        margin: 0;
@@ -100,7 +116,10 @@ p {font-family: 'Quicksand', sans-serif;
        height: auto;  
      }
   
-  
+     .diseno-items{
+text-align: center;
+     } 
+   
   .containerfoto{
     display: flex;
     flex-direction: column 1 1;
@@ -127,25 +146,27 @@ font-size: 1.5rem;
   .hobby img{
    width:400px;
   }
-  .navfotos  ul {
-    font-family: nikita
-   display: inline;
+  .navfotos{
+  display:flex;
+  display: inline;
+    color: aliceblue;
+ }
+ .navfotos  ul {
+    font-family: nikita;
    color:rgba(240, 233, 233, 0.442);
    list-style: none;
   padding: 20px;
  }
-  .navfotos{
-   display: flex;
-   color: aliceblue;
-}
+  
+/*
 a:link{
    text-decoration: none;
    color: rgb(229, 235, 235);
   }
   a:visited{
    color: rgba(227, 27, 74, 0.805);
-  }
-  .hobby  li {
+  }*/
+.hobby  li {
    display: inline;
    font-family: 'Signika Negative', sans-serif;
    color:rgba(243, 237, 237, 0.442);
@@ -153,53 +174,42 @@ a:link{
   padding: 20px;
   cursor: pointer;
  }
-.container{
-  display: flex;
-  justify-content: center;
-    text-align: justify;
-    flex-wrap: wrap;
-   
-   
-   }
- .gallery-card{
-   display:flex;
-   flex-direction:row;
-   justify-content: center;
-   
-   /*padding-top: 5px;  */
-  }
+/*
  .borde-card{
   display: inline;
   /*padding: 50px;*/
-   width: 99%;  
+ /*width: 99%;  
    }
+  
  .card{
-   display:inline-flex;
-   box-sizing: border-box;
-   width: 30%;
-   height: 35%;
+   /*display:inline-flex;
+   box-sizing: border-box;*/
+      /*height: 24%; 
+      flex: 50%;
  padding: 20px 20px 10px 10px;
+ border-radius: 20px;
+   box-shadow: 0 3px 8px #c6c4c4;
+   transition: 0.5s;
+   display: flex;
+   flex-direction: column;
  }
- /*.card h2{
-  font-family: 'Signika Negative', sans-serif;
-  color: rgb(96, 100, 100);
-  font-size: 1rem;
- }*/
+ /*
  .gallery-card .card{
  /*justify-content: center;
    align-items: flex-start;cya estaba marcado*/
-   width: 30%;
-   height: 25%;
+   /*
+   width: 270px;
+   height: 240px;
    background: #FFF;
    border-radius: 20px;
    box-shadow: 0 3px 8px #c6c4c4;
    transition: 0.5s;
- }
- 
+ }*/
+ /*
  .card img{
-    width: 350px;
-   height: 280px;
-   border-radius: 12px;
+    width: 200px;
+   height: 180px;
+   border-radius: 10px;
    overflow: hidden;
  transition: 0.5s;
  text-decoration: none;
@@ -215,9 +225,9 @@ a:link{
   color: rgb(96, 100, 100);
   font-size: 1rem;
   padding: 10px;
-    text-align: left;
+    text-align: center;
   }
-     
+     */
  @media screen and (min-width: 374px) and (max-width: 894px) {
       .container-General{
         display: block;
@@ -299,33 +309,4 @@ a:link{
           margin:0;
          }
         }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,600;0,900;1,900&family=Mochiy+Pop+One&family=Quicksand:wght@300;500&family=Yanone+Kaffeesatz&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,600;0,900;1,900&family=Mochiy+Pop+One&family=Quicksand:wght@300;500&family=Signika+Negative:wght@400;700&family=Yanone+Kaffeesatz&display=swap');
-
-{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: "Poppins", sans-serif";
-    box-sizing: border-box;
-    
-}
-body{
-    background-image: url(/img/fondo2.png);
-    color: rgb(127, 121, 121);
-    padding: 30px;
-    
-}
-.h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 6rem;
-    font-weight: 900;
-    color: rgb(193, 74, 74);
-   
-}
-.img-port{
-    width: 99%;
-    text-align: center;
-}
->>>>>>> 86408a8 (segunda)
+      }

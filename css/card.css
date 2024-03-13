@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-.flex{
+/* flex{
     background-color: rgb(249, 225, 225);
     justify-content: center;
     align-items: center;
@@ -7,8 +6,12 @@
     flex-wrap: wrap;
     gap: 100px 50px;
     padding: 100px 50px;
+}*/
+.Cont-Card{
+  display: flex;
+flex-direction: row;
 }
-/*.container{
+.container{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -18,13 +21,13 @@
     
     }
   
-/*.container-Card{
+.container-Card{
     display:flex;
     justify-content: center;
       align-items: center;
       text-align: center;
-  }*/
-  /*
+  }
+
   .container .card{
     display: flex;
     position: relative;
