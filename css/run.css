@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,600;0,900;1,900&family=Mochiy+Pop+One&family=Quicksand:wght@300;500&family=Yanone+Kaffeesatz&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,600;0,900;1,900&family=Mochiy+Pop+One&family=Quicksand:wght@300;500&family=Signika+Negative:wght@400;700&family=Yanone+Kaffeesatz&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,600;0,900;1,900&family=Mochiy+Pop+One&family=Quicksand:wght@300;500&family=Yanone+Kaffeesatz&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,600;0,900;1,900&family=Mochiy+Pop+One&family=Quicksand:wght@300;500&family=Signika+Negative:wght@400;700&family=Yanone+Kaffeesatz&display=swap'); */
 
 {
     margin: 0;
     padding: 0;
     width: 99%;
     text-decoration: none;
-
+    font-family: 'Signika Negative', sans-serif;
         /*font-family: "Poppins", sans-serif";
     box-sizing: border-box;*/
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 2rem;
     /*box-sizing: */
     margin: 0 auto;
@@ -47,7 +49,7 @@ body {
 .img-port{
   width:85%;
   height: auto;
-  background-image: url(/img/IMG_8608hori.jpg);
+  /* background-image: url(/img/IMG_8608hori.jpg); */
   background-size: cover;
   opacity: 90%;
 }
