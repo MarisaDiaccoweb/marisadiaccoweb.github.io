@@ -1,0 +1,298 @@
+.container-General{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+   }
+   .containerport{
+ width: 99%;
+  }
+ h4{
+  color:rgb(191, 189, 189);
+  font-family: 'Signika Negative', sans-serif;
+  /*font-family: 'kanit';
+  font-weight: 900;*/
+  font-size: 1em;
+  font-weight: 700;
+  /*font-variant-caps: petite-caps;*/
+  text-align: center;
+  transition:2s;
+ }
+ h2{
+  color:rgb(239, 236, 236);
+  font-family: 'Signika Negative', sans-serif;
+  /*font-family: 'kanit';
+  font-weight: 900;*/
+  font-size: 1em;
+  font-weight: 700;
+  /*font-variant-caps: petite-caps;*/
+  text-align: center;
+  transition:2s;
+ }
+ h3{
+  margin:0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4rem;
+  color: rgb(190, 194, 193);
+  text-align:justify;
+  padding:2rem 1rem;
+}
+h1{
+  width:max-content;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 700;
+  background-color:rgba(241, 163, 152, 0.584);
+  padding: 40px 30px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-shadow: 2px 2px rgba(245, 242, 242, 0.209);
+ }
+
+
+.artdiseno{
+   display: flex;
+   max-height: 100px;
+   padding: 20px;
+}
+.artdiseno img{
+   height:80px;
+   margin-left: 10px;
+   border-radius: 10px;
+  }
+p {font-family: 'Quicksand', sans-serif;
+     color: rgb(242, 247, 245);
+     text-align:justify}
+
+     .container{
+      display: flex;
+      position: relative;
+      margin: 10px auto;
+  max-width: $max-img-width;
+  
+  padding-top: $max-img-height/$max-img-width * 100%;
+
+     }
+  
+ .fotos{
+       display:flex;
+       flex-direction: row;
+       width: 100%;
+      } 
+  .diseno{
+    background-color: rgb(35, 35, 34);
+    margin:0;  
+  }   
+  
+.diseno p{
+/* display:flex;*/
+       margin: 0;
+       align-self:center;
+       align-items: center;
+       align-content: center;
+       text-align: center;
+       padding: 20px;
+      }
+      .diseno, .hobby{
+        width: 100%;
+    box-sizing: border-box;
+       padding-left: 10%;
+       padding-top: 5%;
+      }
+     .diseno img{
+       width: 500px;  
+       height: auto;  
+     }
+  
+     .diseno-items{
+text-align: center;
+     } 
+   
+  .containerfoto{
+    display: flex;
+    flex-direction: column 1 1;
+    max-height: 100px;
+  }
+  .containerfoto img{
+    display: flex;
+    height:100px;
+    margin-left: 10px;
+    border-radius: 10px;
+   }
+          
+  .hobby{
+    display: flex
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(35, 35, 34);
+  } 
+.hobby p{
+padding: 10px 10px;
+text-align: justify;
+font-size: 1.5rem;
+  }
+  .hobby img{
+   width:400px;
+  }
+  .navfotos{
+  display:flex;
+  display: inline;
+    color: aliceblue;
+ }
+ .navfotos  ul {
+    font-family: nikita;
+   color:rgba(240, 233, 233, 0.442);
+   list-style: none;
+  padding: 20px;
+ }
+  
+/*
+a:link{
+   text-decoration: none;
+   color: rgb(229, 235, 235);
+  }
+  a:visited{
+   color: rgba(227, 27, 74, 0.805);
+  }*/
+.hobby  li {
+   display: inline;
+   font-family: 'Signika Negative', sans-serif;
+   color:rgba(243, 237, 237, 0.442);
+   list-style: none;
+  padding: 20px;
+  cursor: pointer;
+ }
+/*
+ .borde-card{
+  display: inline;
+  /*padding: 50px;*/
+ /*width: 99%;  
+   }
+  
+ .card{
+   /*display:inline-flex;
+   box-sizing: border-box;*/
+      /*height: 24%; 
+      flex: 50%;
+ padding: 20px 20px 10px 10px;
+ border-radius: 20px;
+   box-shadow: 0 3px 8px #c6c4c4;
+   transition: 0.5s;
+   display: flex;
+   flex-direction: column;
+ }
+ /*
+ .gallery-card .card{
+ /*justify-content: center;
+   align-items: flex-start;cya estaba marcado*/
+   /*
+   width: 270px;
+   height: 240px;
+   background: #FFF;
+   border-radius: 20px;
+   box-shadow: 0 3px 8px #c6c4c4;
+   transition: 0.5s;
+ }*/
+ /*
+ .card img{
+    width: 200px;
+   height: 180px;
+   border-radius: 10px;
+   overflow: hidden;
+ transition: 0.5s;
+ text-decoration: none;
+ }
+ 
+ .card img:hover {
+   bottom: 50px;
+   scale: 1.5;
+   box-shadow: 0 5px 15px #8587eead;
+ }
+  h5{
+    font-family: 'Signika Negative', sans-serif;
+  color: rgb(96, 100, 100);
+  font-size: 1rem;
+  padding: 10px;
+    text-align: center;
+  }
+     
+ @media screen and (min-width: 374px) and (max-width: 894px) {
+      .container-General{
+        display: block;
+        width: 100%;
+      }
+      .diseno{
+        display: block;
+        width: 100%;
+      padding-top: 10px;
+       }
+      .diseno img{
+        width: 400px;  
+      }
+.hobby{
+  display:block;
+ width:100%;
+}
+   .foto{
+    display: block;
+   }
+   foto p{
+    width: fit-content;
+    text-size-adjust: ;
+   }
+ .container{
+  display: block;
+  width:96%
+   }
+   
+@media screen and (min-width: 320px) and (max-width: 667px) {
+  body .containerport{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }    
+  .container-General {
+        display: block;
+        width: 99%;
+      }
+      
+      .borde-card{
+        margin:0;
+        padding: 0px;
+        width: 80%;
+        box-sizing: border-box;
+        align-items: center;
+      }
+      .foto{
+        display: block;
+        width: 95%;
+      }
+      .diseno {
+        width: 99%;
+        display:block;
+      padding-top: 10px;
+      background-color: rgb(35, 35, 34);
+       }
+      .diseno img{
+        width: 330px;  
+    
+      }
+      .hobby{
+        display: block;
+        width:99%;
+        background-color: rgb(35, 35, 34);
+         }
+         .container .gallery-card{
+          display: block;
+          width: 90%;
+          box-sizing: border-box;
+         
+          padding:0;
+          
+          
+         }
+         .borde-card{
+          box-sizing: border-box;
+          padding: 0%;
+          margin:0;
+         }
+        }
+      }*/

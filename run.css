@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,600;0,900;1,900&family=Mochiy+Pop+One&family=Quicksand:wght@300;500&family=Yanone+Kaffeesatz&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kanit:ital,wght@0,300;0,600;0,900;1,900&family=Mochiy+Pop+One&family=Quicksand:wght@300;500&family=Signika+Negative:wght@400;700&family=Yanone+Kaffeesatz&display=swap'); */
+
+{
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    text-decoration: none;
+    font-family: 'Signika Negative', sans-serif;
+        /*font-family: "Poppins", sans-serif";
+    box-sizing: border-box;*/
+}
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 2rem;
+    /*box-sizing: */
+    margin: 0 auto;
+
+}
+
+.container-presen{
+   display: flex;
+   flex-direction: row;
+   opacity: .75;
+   justify-content: space-between;
+   justify-content: center;
+   align-items: center; 
+   align-self: center;
+}
+
+.present-txt{
+    color: #0a0a0a;
+    text-align:justify;
+    text-overflow: ellipsis;
+    padding: 10px;
+    z-index: 3;
+    
+}
+
+.contenidohobbies{
+  font-size: 32px;
+    display: flex;
+    flex-direction: column 2;
+    padding: 3%;
+}
+.img-port{
+  width:85%;
+  height: auto;
+  /* background-image: url(/img/IMG_8608hori.jpg); */
+  background-size: cover;
+  opacity: 90%;
+}
+.present-txt{
+  padding: 3%;
+ }
+    @media screen and (min-width: 320px) and (max-width: 667px) {
+        
+      .contenidohobbies{
+          display:inline;
+          flex-direction: column 1;
+          text-align: justify;
+        }
+        .img-port{
+          width:350px;
+          height:250px ;
+          background-image: url(/img/IMG_8608hori.jpg);
+          object-fit: cover;
+    
+        }
+      
+      }
