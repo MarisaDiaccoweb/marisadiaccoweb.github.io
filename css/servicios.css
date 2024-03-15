@@ -1,15 +1,21 @@
-{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+.cont-servi{
+  display: flex;
+  padding: 2rem;
+  width: 100%;
+  align-self:center;
+  text-align: center;
 }
+.servi{
+  /* display: flex; */
+  /* align-self: center; */
+  /* align-content: center; */
+  text-align: center;
+  width:650px;
+  height: 580px;
+  border-radius: 20px;
+  background-image: url(/img/servicios.png);
 
-body {
-  display: block;
-   text-decoration: none;
-   background-color: rgba(250, 237, 249, 0.707); 
 }
-
 .container-pres{
     display: flex;
     font-family: 'Roboto Condensed', sans-serif;
@@ -62,17 +68,7 @@ h4{
   align-content: center;*/
   align-items: left;  
 }
-.cafe{
-  display: flex;
-  align-self: center;
-  align-content: center;
-  text-align: center;
-  width:53%;
-  height: 990px;
-  border-radius: 20px;
-  background-image: url(/img/mdiaccosercoach2.png);
 
-}
 /*.cafe:hover{
   width: 190px;
   height: 145px;

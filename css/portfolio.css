@@ -1,18 +1,4 @@
-
-/* *{ 
-   /*font-family: 'Quicksand', sans-serif; 
-   font-size: .7rem;
-   width:90%;
-   fontfamily: 'Signika Negative', sans-serif;
-   /*font-family: 'Quicksand', sans-serif;
-   }
-   */
-body {
- /*display: block;*/
-   text-decoration: none;
-   background-color: rgba(250, 237, 249, 0.707); 
-}
-   .container-General{
+.container-General{
     display: flex;
     width: 100%;
     box-sizing: border-box;
@@ -227,7 +213,7 @@ a:link{
   padding: 10px;
     text-align: center;
   }
-     */
+     
  @media screen and (min-width: 374px) and (max-width: 894px) {
       .container-General{
         display: block;
@@ -309,4 +295,4 @@ a:link{
           margin:0;
          }
         }
-      }
+      }*/
