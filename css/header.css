@@ -21,14 +21,16 @@
 	height: 115px;
 	margin: 10px;
 	background-image: url(/logo/logomdiaccosmall.png);
+	animation-duration: 1s;
+		animation-name: slidein;
+		animation-iteration-count:1;
+		/*margin: auto;
+		text-align: center;*/
+		animation-direction: alternate;
+		 z-index: 3;
 }
-	.logo-header:hover {
-		width:220px;
-	height: 125px;
-	background-image: url(/logo/logomdiaccosmall.png);
-	animation-fill-mode: backwards;
-	}
-	.anima{
+	
+	anima{
 		/*display: flex;*/
 		animation-duration: 1s;
 		animation-name: slidein;
@@ -64,6 +66,8 @@
  * Navegación
  */
 nav {
+	display: flex;
+	flex-direction: row;
 	color:#333;
 	float: right;
 }
