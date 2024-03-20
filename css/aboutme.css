@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+  }
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+.container{
+	display: flex;
+	width: 100vw;
+    height:auto;
+flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    /* overflow: hidden; */
+}
+
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.imagenes{
+display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* .img{
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.85);
+    height: auto;
+    width: 90%;
+    border-radius: 15px ;
+    margin: 5px;
+    object-fit: cover;
+    filter: saturate(175%);
+} */
+
+.container-pres{
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: center;     
+  
+  }
+   
+    .titulo-Art {
+      
+      font-family: "Carrois Gothic SC", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    font-size: 3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+   color: #666;
+  
+  }
+  .cafe{
+    float: left;
+    text-align: left;
+    background-color: rgba(252, 211, 248, 0.64);
+    border-radius: 40px;
+    padding: 2%;
+  
+  }
+  
+.texto-info{
+  display: flex;
+  padding: 20px;
+      font-size: 1.5 rem;
+      font-weight: 100;
+      padding: 20px 20px;
+      align-items: left;
+     line-height: 1.8; 
+      text-align: justify;
+    
+      
+  }
+  .imgcafe{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    /*align-self: center;
+    align-content: center;*/
+    align-items: left;  
+  }
+  .cafe{
+    float: left;
+    width: 190px;
+    height: 125px;
+    margin: 10px;
+    border-radius: 50px;
+    background-image: url(/img/cafe.gif);
+  }
+  .cafe:hover{
+    width: 190px;
+    height: 145px;
+    margin: 10px;
+    align-content: center;
+    background-image: url(/img/darcafe.png);
+  }
+  .Cont-Card{
+    display: flex;
+     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+   .conte-port{
+     display: flex;
+     float: column;
+     font-family: "Carrois Gothic SC", sans-serif;
+     font-weight: 600;
+     font-size: 2rem;
+     width: 400px;
+     /* flex-wrap:inherit; */
+     flex-wrap: wrap;
+        justify-content: center;
+      align-items: center;
+      text-align: center; 
+       padding: 50px 50px;
+       background: #FFF;
+       border-radius: 10px;
+       box-shadow: 0 35px 80px #c6c4c4;
+       transition: 0.5s;
+   }
+      
+      
+   .conte-port:hover {
+     bottom: 50px;
+     scale: .90;
+     box-shadow: 0 5px 15px #8587eead;
+     object-fit:cover;
+     background-color:#e1ecfb ;
+   }
+  
+     a:link, a:visited, a:active{
+       
+       color:rgb(77, 75, 75);
+       text-decoration: none;
+     }
+     a:hover{
+       font-size: 1.5rem;
+       color:rgba(8, 46, 106, 0.363);
+     }
+    
+     
+     
+

@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap')
+{
+	.carrois-gothic sc-regular {
+		font-family: "Carrois Gothic SC", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		color: #333;
+	  }
+	  
+}
+
+
+/*
+ * Logo
+ */
+ 
+.logo-header {
+  	float: left;
+	width: 190px;
+	height: 115px;
+	margin: 10px;
+	background-image: url(/logo/logomdiaccosmall.png);
+}
+	.logo-header:hover {
+		width:220px;
+	height: 125px;
+	background-image: url(/logo/logomdiaccosmall.png);
+	animation-fill-mode: backwards;
+	}
+	.anima{
+		/*display: flex;*/
+		animation-duration: 1s;
+		animation-name: slidein;
+		animation-iteration-count:1;
+		/*margin: auto;
+		text-align: center;*/
+		animation-direction: alternate;
+		 z-index: 3;
+	  }
+	  
+	  .slidein {
+		animation-duration: 2s;
+		animation-iteration-count: 1;
+		animation-direction: alternate;
+	  }
+	  
+	  @keyframes slidein {
+		from {
+		  opacity: 10%;
+		  margin-left:100%; 
+		  /* width:30%*/
+		}
+	  
+		to {
+		  opacity: 100%;
+		  margin-left:0%; 
+		 /*width:100%;*/
+		 align-items: center;
+	   }
+	  }
+	  
+/*
+ * Navegación
+ */
+nav {
+	color:#333;
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+		font-family: "Carrois Gothic SC", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+	
+		nav ul li {
+			display: inline-block;text-decoration: none;
+			line-height: 90px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+				color:rgb(74, 77, 77)
+			}
+			
+				nav ul li a:hover {
+					color: #36b1d0;
+				}
+				nav ul li a:visited {
+					color: #0d7e9b;
+				}
+
+				@media only screen and (max-width: 600px) {
+					.wrap{
+    width: 100%;
+    margin-top: 0px;
+  }
+  .logo-header {
+	float: left;
+  width: 60px;
+  height: 38px;
+  margin: 0px;
+  background-image: url(/logo/logomdiaccoxs.png);
+}
+  nav ul li {
+    float: none;
+	display: block;
+  }
+  
+					}
+				
