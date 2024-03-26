@@ -1,21 +1,19 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap')
-{
-	.carrois-gothic sc-regular {
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+	.main-header{
+		display: inline-flex;
 		font-family: "Carrois Gothic SC", sans-serif;
 		font-weight: 400;
 		font-style: normal;
 		color: #333;
 	  }
 	  
-}
 
 
-/*
- * Logo
- */
  
 .logo-header {
+	display: flex;
   	float: left;
 	width: 190px;
 	height: 115px;
@@ -31,7 +29,7 @@
 }
 	
 	anima{
-		/*display: flex;*/
+		display: flex;
 		animation-duration: 1s;
 		animation-name: slidein;
 		animation-iteration-count:1;
@@ -65,39 +63,45 @@
 /*
  * Navegación
  */
-nav {
+.navbar {
 	display: flex;
 	flex-direction: row;
 	color:#333;
-	float: right;
+	align-items:flex-end;
+	
 }
 	nav ul {
-		margin: 0;
-		padding: 0;
+		/*margin: 0;
+		padding: 0;*/
 		list-style: none;
-		padding-right: 20px;
+		/*padding-right: 20px;*/
 		font-family: "Carrois Gothic SC", sans-serif;
 		font-weight: 400;
 		font-style: normal;
 	}
 	
 		nav ul li {
-			display: inline-block;text-decoration: none;
+			display: inline-block;
+			text-decoration: none;
+			/* float: inline-end; */
+			text-align: right;
+			align-items: right;
 			line-height: 90px;
 		}
 			
 			nav ul li a {
-				display: block;
-				padding: 0 10px;
+				
+				/* padding: 0 10px; */
 				text-decoration: none;
 				color:rgb(74, 77, 77)
 			}
 			
 				nav ul li a:hover {
-					color: #36b1d0;
+					color: #76a4b0;
+					font-size: 1.3rem;
 				}
 				nav ul li a:visited {
-					color: #0d7e9b;
+					color: #4c4d4d;
 				}
 
 				@media only screen and (max-width: 600px) {

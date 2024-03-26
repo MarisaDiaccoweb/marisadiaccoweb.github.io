@@ -1,30 +1,46 @@
-{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
-}
 
 body {
-  display: block;
-   text-decoration: none;
-   background-color: rgba(250, 237, 249, 0.707);
+    width: 100vw;
+    height: 100vh;
+	margin: 0;
+	padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
 }
-    @media screen and (min-width: 320px) and (max-width: 667px) {
-        
-      .contenidohobbies{
-          display:inline;
-          flex-direction: column 1;
-          text-align: justify;
-        }
-        .img-port{
-          width:350px;
-          height:250px ;
-          background-image: url(/img/IMG_8608hori.jpg);
-          object-fit: cover;
-    
-        }
-      .flip-card{
-        display:flex;
-        flex-direction: row;
-      }
-      }
+.container{
+	display: flex;
+    flex-direction: column; 
+/* overflow: hidden; */
+width: 100%;
+height: 100vh;
+margin: 0;
+padding: 0;
+     /* overflow: hidden; */
+}
+
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+
+.portada{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ima-por{
+width: 1080px;
+height: 600px;
+}
